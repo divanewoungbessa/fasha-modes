@@ -1,0 +1,63 @@
+#recherche{
+    width: 300px;
+    float: right;
+    padding: 3px;
+    margin-right: 2px;
+}
+#recherche input{
+    height: 30px;
+    border-radius: 8px;
+}
+#vision{
+    width: 2000px;    
+    background: beige;
+
+}
+nav{
+    width: 1200px;
+    margin: 0 auto;
+}
+nav a{
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    border:0.75px solid black ;
+    text-align: center;
+    padding: 5px;
+    background-color: skyblue;
+}
+nav a:hover{
+    color: blue;
+}
+body{
+    background-color: skyblue;
+    
+} 
+#produits{
+    margin-left: 100px;
+    color:white;
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    width: 20%;
+    height: auto;
+    margin: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px;
+}
+.footer-section{
+    text-align: center;
+}
+.footer-section img{
+    width: 24px;
+    height: 24px;
+}
